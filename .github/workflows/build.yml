@@ -32,7 +32,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build APK
-        working-directory: project/FlashPro
+        working-directory: project
         run: gradle :app:assembleDebug
 
       - name: Upload APK
